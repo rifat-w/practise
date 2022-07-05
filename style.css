@@ -1,13 +1,16 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-.aqua{
-    color: rgb(156, 150, 150);
+.gray{
+    color: rgb(102, 47, 47);
 }
 .flexibel-containe {
     display: flex;
     margin-bottom: 200px;  
+}
+.marg{
+    margin-top: 200px;
 }
 .harf-with{
     width: 50%;
@@ -15,29 +18,29 @@ body{
   
 }
 .harf-with img{
-    width: 80%;
+    width: 70%;
 }
-.link-button {
+.button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(lightpink ,lightgreen);
     padding: 60px 40x;
     padding: 5px 10px 5px 10px;
-    color: lightgray;
+    color: rgb(174, 26, 26);
     font-weight: 900;
     border-radius: 2px;
 }
 
 .top-banner{
-    background-image: url(images/top-banner.png);
+    background-image: url();
     background-repeat: no-repeat;
 }
-.dream-p{
-    background-image: url(images/dream-bg.png);
+.midle{
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: right;
 }
 .expreience-area {
-    background-image: url(images/exp-bg.png);
+    background-image: url();
     background-repeat:no-repeat ;
     background-position: left bottom;
     background-size: 99px auto;
@@ -48,12 +51,12 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    box-shadow: 10px 10px 50px gray;
+    box-shadow: 10px 10px 50px white;
     border-radius: 10px;
     border-left: 7px solid blue;
 }
-h2{
-    font-size: 40px;
+h6{
+    font-size: 20px;
 }
 #full-stack-developer{
     border-left: 7px solid tomato;
