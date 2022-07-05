@@ -22,11 +22,11 @@ body{
 }
 .button {
     text-decoration: none;
-    background-image: linear-gradient(lightpink ,lightgreen);
+    background-image: linear-gradient(teal ,lightgreen);
     padding: 60px 40x;
     padding: 5px 10px 5px 10px;
-    color: rgb(174, 26, 26);
-    font-weight: 900;
+    color: white;
+    font-weight: 800;
     border-radius: 2px;
 }
 
@@ -35,32 +35,28 @@ body{
     background-repeat: no-repeat;
 }
 .midle{
-    background-image: url(eat-healthy-main/images/shapes/Frame\ 57.jpg);
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-position: right;
 }
-.expreience-area {
+.area {
     background-image: url();
     background-repeat:no-repeat ;
     background-position: left bottom;
     background-size: 99px auto;
     
 }
-.expreience-item{
+.recipie-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    box-shadow: 10px 10px 50px white;
-    border-radius: 10px;
-    border-left: 7px solid blue;
+    box-shadow: 10px 50px 900px white;
+    border-radius: 70px;
+    
 }
-h6{
-    font-size: 20px;
-}
-#full-stack-developer{
-    border-left: 7px solid tomato;
-}
+
+
 footer p{
     text-align: center;
 }
@@ -79,6 +75,11 @@ footer p{
     display: flex;
     margin-bottom: 200px;  
 }
+.with{
+    width: 60%;
+   margin-top: 20px;
+   margin-left: 80px;
+}
 .harf-with{
     width: 50%;
     padding-left: 2%;
@@ -87,52 +88,32 @@ footer p{
 .harf-with img{
     width: 80%;
 }
-.link-button {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 60px 40x;
-    padding: 5px 10px 5px 10px;
-    color: lightgray;
-    font-weight: 900;
-    border-radius: 2px;
-}
 
-.top-banner{
-    background-image: url();
-    background-repeat: no-repeat;
-}
-.dream-p{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.expreience-area {
-    background-image: url();
-    background-repeat:no-repeat ;
-    background-position: left bottom;
-    background-size: 99px auto;
-    
-}
-.expreience-item{
+
+
+.recipie-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    box-shadow: 10px 10px 50px gray;
-    border-radius: 10px;
-    border-left: 7px solid blue;
+    box-shadow: 10px 10px 50px rgb(15, 26, 26);
+    border-radius: 25px;
+    
 }
-h2{
-    font-size: 40px;
-}
-#full-stack-developer{
-    border-left: 7px solid tomato;
+
+
+#tt{
+    text-align: center;
+    margin-bottom: 80px;
 }
 footer p{
     text-align: center;
 }
 #col {
-    background-color:aqua;
+    background-color:cadetblue;
     border-radius: 2px;
     padding: 10px 20px 10px 10px;
+}
+.color{
+    color:cadetblue;
 }
